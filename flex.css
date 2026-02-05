@@ -25,11 +25,10 @@
     justify-content: space-between;
 }
 
-.top-of-projects {
+.top-descriptions {
     display: flex;
     border-style: hidden;
     border-width: 10px;
-    border-color: rgb(255, 0, 200);
     flex-direction: row;
     background-color:#17252A;
     justify-content: center;
@@ -38,9 +37,9 @@
 
 .flex-container2 {
     display: flex;
-    border-style: hidden;
+    border-style: solid;
     border-width: 10px;
-    border-color: rgb(0, 255, 51);
+    border-color: transparent;
     flex-direction: row;
     background-color:#a6d7d9;
 }
@@ -59,12 +58,30 @@
 
 .flex-item11 {
     border-style: hidden;
-    border-width: 2px;
     text-align: center;
 }
 
 .border-less {
+    border-style: solid;
+    border-color: transparent;
+    border-width: 5px;
+    align-content: center;
+}
+
+.bullet-points {
+    font-size: 20px;
+}
+
+.footnotes {
+    display: flex;
     border-style: hidden;
     border-width: 10px;
-    align-content: center;
+    flex-direction: row;
+    background-color:#17252A;
+}
+
+.logo-format {
+    width:80px;
+    height:80px;
+    border: 5px solid transparent;
 }
