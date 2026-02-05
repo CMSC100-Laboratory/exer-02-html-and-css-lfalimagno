@@ -8,10 +8,15 @@
 
 .nav_bar {
     display: flex;
-    border-style: solid;
+    border-style: hidden;
     border-width: 5px;
     border-color: rgb(255, 0, 200);
     flex-direction: row;
+    background-color: ;
+}
+
+.p1 {
+  font-family: Georgia, sans-serif;
 }
 
 .flex-container2 {
@@ -23,6 +28,12 @@
 }
 .flex-item {
     border-style: solid;
+    border-width: 2px;
+    border-color: red;
+}
+
+.border-less {
+    border-style: hidden;
     border-width: 2px;
     border-color: red;
 }
