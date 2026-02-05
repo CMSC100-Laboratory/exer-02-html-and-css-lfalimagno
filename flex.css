@@ -5,35 +5,66 @@
     border-color: red;
     flex-direction: row;
 }
+.middle-part {
+    display: flex;
+    border-style: hidden;
+    border-width: 5px;
+    border-color: red;
+    flex-direction: row;
+    background-color:#a6d7d9;
+    align-items:center;
+}
+
 
 .nav_bar {
     display: flex;
     border-style: hidden;
-    border-width: 5px;
-    border-color: rgb(255, 0, 200);
+    border-width: 10px;
     flex-direction: row;
-    background-color: ;
+    background-color:#17252A;
+    justify-content: space-between;
 }
 
-.p1 {
-  font-family: Georgia, sans-serif;
+.top-of-projects {
+    display: flex;
+    border-style: hidden;
+    border-width: 10px;
+    border-color: rgb(255, 0, 200);
+    flex-direction: row;
+    background-color:#17252A;
+    justify-content: center;
+    align-content: center;
 }
 
 .flex-container2 {
     display: flex;
-    border-style: solid;
-    border-width: 5px;
+    border-style: hidden;
+    border-width: 10px;
     border-color: rgb(0, 255, 51);
     flex-direction: row;
+    background-color:#a6d7d9;
 }
+
 .flex-item {
-    border-style: solid;
+    border-style: hidden;
     border-width: 2px;
-    border-color: red;
+}
+
+.flex-item1 {
+    border-style: hidden;
+    border-width: 2px;
+    align-content: center;
+    justify-content: center;
+}
+
+.flex-item11 {
+    border-style: hidden;
+    border-width: 2px;
+    text-align: center;
 }
 
 .border-less {
     border-style: hidden;
-    border-width: 2px;
-    border-color: red;
+    border-width: 10px;
+    align-content: center;
 }
