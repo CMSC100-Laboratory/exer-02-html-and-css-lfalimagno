@@ -1,87 +1,58 @@
-.flex-container {
-    display: flex;
-    border-style: solid;
-    border-width: 5px;
-    border-color: red;
-    flex-direction: row;
-}
 .middle-part {
-    display: flex;
-    border-style: hidden;
-    border-width: 5px;
-    border-color: red;
-    flex-direction: row;
-    background-color:#a6d7d9;
-    align-items:center;
+    display: flex; /* flex box for my picture, hi and short intro */
+    flex-direction: row;  /*elements alligned as row */
+    background-color:#a6d7d9;  /* bg color*/
+    align-items:center;  /* to center the elements within */
 }
 
 
 .nav_bar {
-    display: flex;
-    border-style: hidden;
-    border-width: 10px;
-    flex-direction: row;
-    background-color:#17252A;
-    justify-content: space-between;
+    display: flex;  /* flex for the hire me and smiley */
+    flex-direction: row; 
+    background-color:#17252A;  /* bg color*/
+    justify-content: space-between;  /* so there will be space in between elements */
 }
 
 .top-descriptions {
-    display: flex;
-    border-style: hidden;
-    border-width: 10px;
+    display: flex; /* flex for the top desription */
     flex-direction: row;
     background-color:#17252A;
-    justify-content: center;
-    align-content: center;
+    justify-content: center; /* for centering along main axis */
+    align-content: center; /* vcenterying along cross axis */
 }
 
 .flex-container2 {
-    display: flex;
+    display: flex; /* flex box for projects and skills*/
     border-style: solid;
     border-width: 10px;
-    border-color: transparent;
+    border-color: transparent; /* use of transparent so that there will be border but no line */
     flex-direction: row;
     background-color:#a6d7d9;
 }
 
-.flex-item {
-    border-style: hidden;
-    border-width: 2px;
-}
-
-.flex-item1 {
-    border-style: hidden;
-    border-width: 2px;
-    align-content: center;
-    justify-content: center;
-}
-
-.flex-item11 {
-    border-style: hidden;
-    text-align: center;
+.text-center {
+    text-align: center; /*just centers text*/
 }
 
 .border-less {
     border-style: solid;
-    border-color: transparent;
+    border-color: transparent; /*creates an invisible border around element*/
     border-width: 5px;
     align-content: center;
 }
 
 .bullet-points {
-    font-size: 20px;
+    font-size: 20px; /*just increases size of font*/
 }
 
 .footnotes {
     display: flex;
-    border-style: hidden;
-    border-width: 10px;
-    flex-direction: row;
+    flex-direction: row; /*for footnotes */
     background-color:#17252A;
 }
 
 .logo-format {
-    width:80px;
+    width:80px; /*creates a format for logos*/
     height:80px;
     border: 5px solid transparent;
 }
